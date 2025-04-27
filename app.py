@@ -18,7 +18,7 @@ import streamlit as st
 
 # drag-and-drop component
 try:
-    from streamlit_sortable import st_sortable
+    from streamlit_sortables import st_sortable
     HAS_SORTABLE = True
 except ImportError:
     HAS_SORTABLE = False  # fallback to static list
